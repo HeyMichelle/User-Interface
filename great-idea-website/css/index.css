@@ -16,8 +16,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin-top: 200;
+	padding: 200;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -63,4 +63,53 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+nav {
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid pink;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#largeText {
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid pink;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+#logo {
+	display: inline-block;
+	border: 2px solid blue;
+
+.sectOne {
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid pink;
+	box-sizing: border-box;
+}
+
+.sectTwo {
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid pink;
+	box-sizing: border-box;
+}
+
+footer {
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid pink;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
 /* Your code starts here! */
