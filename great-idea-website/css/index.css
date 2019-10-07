@@ -53,6 +53,7 @@ table {
 }
 
 html, body {
+
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -63,53 +64,95 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+/* Your code starts here! */
+
 nav {
-	padding: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-	border: 2px solid pink;
+	color: gray;
+	margin-right: 65px;
 	text-align: center;
+	font-size: 14px;
 	box-sizing: border-box;
 }
 
-#largeText {
+#top {
 	padding: 10px;
-	margin-left: 20px;
+	margin-left: 50px;
 	margin-right: 20px;
 	border: 2px solid pink;
 	box-sizing: border-box;
+}
+
+.iodText {
+	font-size: 80px;
+	width: 50%;
 	display: inline-block;
 }
 
-#logo {
+#top img {
 	display: inline-block;
-	border: 2px solid blue;
+}
+
+
+#start {
+	padding: 30px;
+	width: 35%;
+	margin-left: 50px;
+	margin-right: 20px;
+	text-align: center;
+	border: 2px solid black;
+}
 
 .sectOne {
-	padding: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-	border: 2px solid pink;
-	box-sizing: border-box;
+	width: 410px;
+	display: inline-block;
+	margin-right: 34px;
 }
 
+.sectOne .one {
+	display: inline-block;
+}
+
+
 .sectTwo {
-	padding: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-	border: 2px solid pink;
-	box-sizing: border-box;
+	margin-top: 37px;
+ 	padding: 0 10px;
+}
+
+.sectTwo .two {
+	display: inline-block;
 }
 
 footer {
-	padding: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-	border: 2px solid pink;
-	box-sizing: border-box;
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
 }
 
 a {
 	text-decoration: none;
 }
-/* Your code starts here! */
+
+/* return later to inspect. codepen.io solution provided below */
+
+.contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+.contact p {
+	margin: 20px 0;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
