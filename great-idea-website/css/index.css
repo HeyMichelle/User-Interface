@@ -66,18 +66,58 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-nav {
+.container {
+	width: 880px;
+	margin: 0 auto;
+	border: 5px dashed dodgerblue;
+}
+
+/* nav {
 	color: gray;
-	margin-right: 65px;
 	text-align: center;
 	font-size: 14px;
-	box-sizing: border-box;
+	background-color: lightblue;
+} */
+
+nav {
+	display: inline-block;
+	text-align: center;
+  /* width: 691px; */
+  vertical-align: top;
+	/* margin-top: 35px; */
+	width: 100%;
+	background-color: lightblue;
+}
+
+nav a {
+	margin-right: 64px;
+	border: 1px solid red;
+	font-size: 14px;
+  color: gray;
+	text-decoration: none;
+	/* text-align: center; */
+	float: left;
+	padding-top: 10px;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+
+nav img {
+	border: 1px solid blue;
+	/* margin-top: 25px; */
 }
 
 #top {
-	padding: 10px;
-	margin-left: 50px;
-	margin-right: 20px;
+	/* padding: 10px; */
+	/* margin-left: 50px;
+	margin-right: 20px; */
 	border: 2px solid pink;
 	box-sizing: border-box;
 }
@@ -86,40 +126,73 @@ nav {
 	font-size: 80px;
 	width: 50%;
 	display: inline-block;
+	text-align: center;
 }
 
 #top img {
 	display: inline-block;
 }
 
+/* you'll need this at some point */
+button {
+	/* do something with this to style button properly */
+	background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
 
-#start {
+button:hover {
+	background: black;
+  color: white;
+}
+/* 
+What does this refer to? I can't find anything id="start" in the html 
+*/
+/* #start {
 	padding: 30px;
 	width: 35%;
 	margin-left: 50px;
 	margin-right: 20px;
 	text-align: center;
 	border: 2px solid black;
-}
+} */
+
+/* deleted .sectOne -it wasn't doing thing */
 
 .sectOne {
-	width: 410px;
-	display: inline-block;
-	margin-right: 34px;
+	/* border: 3px solid purple; */
 }
 
-.sectOne .one {
+.one {
+	width: 46%;
 	display: inline-block;
+	/* margin-top: 37px; */
+	margin: 1%;
+	/* border: 5px solid green;
+	background-color: lightblue; */
 }
-
 
 .sectTwo {
-	margin-top: 37px;
- 	padding: 0 10px;
+	/* margin-top: 37px; */
+	/* padding: 0 10px; */
+	/* border: 3px solid purple; */
 }
 
-.sectTwo .two {
+
+/* .sectTwo {
 	display: inline-block;
+} */
+
+.two {
+	/* border: 1px solid red; */
+	width: 31%;
+	display: inline-block;
+	margin: 1%;
+	/* border: 1px solid red; */
 }
 
 footer {
@@ -135,9 +208,11 @@ a {
 /* return later to inspect. codepen.io solution provided below */
 
 .contact {
-	margin-top: 57px;
+	/* margin-top: 57px; */
 	border-top: 1px solid black;
-	padding: 39px 10px 0;
+	/* padding: 39px 10px 0; */
+	margin: 1%;
+
   }
   
 .contact p {
@@ -151,6 +226,10 @@ header nav a:hover {
 header nav a:first-child {
   margin-left: 0;
 }
+
+/* 
+if you're wondering about first-child and last-child throw on different colored borders on here and see what it refers to... 
+*/
 
 header nav a:last-child {
   margin-right: 0;
