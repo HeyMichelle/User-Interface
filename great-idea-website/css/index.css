@@ -66,18 +66,31 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container {
+	width: 880px;
+	margin: 0 auto;
+	border: 3px solid red;
+}
+
 nav {
+	/* background-color: lightpink; */
 	color: gray;
-	margin-right: 65px;
 	text-align: center;
 	font-size: 14px;
 	box-sizing: border-box;
 }
 
+a {
+	/* background-color: white; */
+	/* border: 2px solid green; */
+	text-decoration: none;
+	margin-right: 64px;
+	vertical-align: top;
+	float: left;
+	padding-top: 10px;
+}
+
 #top {
-	padding: 10px;
-	margin-left: 50px;
-	margin-right: 20px;
 	border: 2px solid pink;
 	box-sizing: border-box;
 }
@@ -86,40 +99,22 @@ nav {
 	font-size: 80px;
 	width: 50%;
 	display: inline-block;
-}
-
-#top img {
-	display: inline-block;
-}
-
-
-#start {
-	padding: 30px;
-	width: 35%;
-	margin-left: 50px;
-	margin-right: 20px;
 	text-align: center;
-	border: 2px solid black;
 }
 
 .sectOne {
 	width: 410px;
 	display: inline-block;
-	margin-right: 34px;
 }
 
-.sectOne .one {
+.one {
 	display: inline-block;
 }
 
-
-.sectTwo {
-	margin-top: 37px;
- 	padding: 0 10px;
-}
-
-.sectTwo .two {
+.two {
 	display: inline-block;
+	width: 31%;
+	margin: 0 1%;
 }
 
 footer {
@@ -128,20 +123,16 @@ footer {
 	font-size: 14px;
 }
 
-a {
-	text-decoration: none;
-}
 
 /* return later to inspect. codepen.io solution provided below */
 
 .contact {
-	margin-top: 57px;
 	border-top: 1px solid black;
-	padding: 39px 10px 0;
+	margin: 0 1%;
   }
   
 .contact p {
-	margin: 20px 0;
+	margin: 5px 0;
 }
 
 header nav a:hover {
@@ -156,3 +147,6 @@ header nav a:last-child {
   margin-right: 0;
 }
 
+nav a:first-child {
+	border: 2px solid purple;
+}
