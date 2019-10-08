@@ -69,20 +69,10 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 880px;
 	margin: 0 auto;
-	border: 3px solid red;
-}
-
-nav {
-	/* background-color: lightpink; */
-	color: gray;
-	text-align: center;
-	font-size: 14px;
-	box-sizing: border-box;
 }
 
 a {
-	/* background-color: white; */
-	/* border: 2px solid green; */
+	color: gray;
 	text-decoration: none;
 	margin-right: 64px;
 	vertical-align: top;
@@ -90,10 +80,6 @@ a {
 	padding-top: 10px;
 }
 
-#top {
-	border: 2px solid pink;
-	box-sizing: border-box;
-}
 
 .iodText {
 	font-size: 80px;
@@ -102,13 +88,10 @@ a {
 	text-align: center;
 }
 
-.sectOne {
-	width: 410px;
-	display: inline-block;
-}
-
 .one {
 	display: inline-block;
+	width: 40%;
+	margin: 0 1%;
 }
 
 .two {
@@ -117,15 +100,6 @@ a {
 	margin: 0 1%;
 }
 
-footer {
-	margin: 32px 0;
-	text-align: center;
-	font-size: 14px;
-}
-
-
-/* return later to inspect. codepen.io solution provided below */
-
 .contact {
 	border-top: 1px solid black;
 	margin: 0 1%;
@@ -133,6 +107,19 @@ footer {
   
 .contact p {
 	margin: 5px 0;
+}
+
+.button {
+	text-decoration: none;
+	text-align: center;
+	vertical-align: 20%;
+	background-color: white;
+}
+
+nav {
+	text-align: center;
+	font-size: 14px;
+	box-sizing: border-box;
 }
 
 header nav a:hover {
@@ -147,6 +134,25 @@ header nav a:last-child {
   margin-right: 0;
 }
 
-nav a:first-child {
-	border: 2px solid purple;
+footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
 }
+
+/* from codepen, how do you do the buttons? */
+  
+.button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+.button:hover {
+	background: black;
+	color: white;
+  }
